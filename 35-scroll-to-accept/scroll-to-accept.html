@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="wrapper">
+        <div class="terms-and-conditions">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, possimus facere nihil vitae iste beatae labore voluptatibus id ducimus, veritatis nostrum unde eos autem. Voluptatem aspernatur natus ad dolorum saepe!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel explicabo nisi praesentium eos. Asperiores similique totam non unde praesentium cumque beatae voluptate rerum magni sint eaque ratione velit, odit blanditiis.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur beatae fugiat tempore provident? Labore minima ea iste neque omnis temporibus corporis distinctio molestiae blanditiis excepturi? Voluptates temporibus quod animi ea.
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit expedita doloribus ipsum, enim, officiis labore aliquam odio qui vero minima recusandae id neque hic nesciunt tenetur aspernatur commodi incidunt nemo.
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil dicta nisi veritatis illo sequi eos error assumenda, aliquid ad officia, culpa facilis! Cum voluptatum quam pariatur repellendus expedita ex aliquam.
+            </p>
+            <strong class="watch">watch for me</strong>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem mollitia tempore saepe accusantium odio doloremque quo quae explicabo eaque, voluptatum aperiam fugit eos porro consectetur, nulla molestias! A, minima dolores!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio corporis non rerum minima eveniet quam. Voluptatem, sapiente nisi cumque quos soluta veniam id, facilis aspernatur quam ullam minus veritatis officiis!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse rem odio iste cumque tenetur voluptatibus ratione ipsa, delectus labore, earum est ut facilis? Alias quasi ratione quaerat quisquam eaque itaque? 
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima, quasi ad sapiente aliquid in illo maxime veniam corporis autem nisi ipsum et ipsa! Eum deleniti sunt provident, odio similique dolore.
+            </p>
+        </div>
+
+        <button class="accept" disabled autocomplete="off">Accept</button>
+    </div>
+    
+    <style>
+        body {
+            min-height: 100vh;
+            display: grid;
+            justify-content: center;
+            align-content: center;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            line-height: 2;
+            background: #ffc600;
+        }
+
+        .wrapper {
+            width: 400px;
+            height: 80vh;
+            padding: 20px;
+            border: 1px solid black;
+            background: white;
+            display: grid;
+            grid-template-rows: 1fr auto;
+        }
+
+        button {
+            background: #ff0060;
+            color: white;
+            font-size: 1rem;
+            padding: 20px;
+            transition: all 0.2s;
+        }
+
+        button[disabled] {
+            opacity: 0.1;
+            /* transform: translateX(-200%) scale(0.5); */
+        }
+
+        .terms-and-conditions {
+            overflow: scroll;
+        }
+    </style>
+    <script src="scroll-to-accept.js"></script>
+</body>
+</html>
