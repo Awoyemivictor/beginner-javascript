@@ -1,35 +1,12 @@
 {
-  "eslintConfig": {
-    "extends": [
-      "wesbos"
-    ],
-    "rules": {
-      "no-console": 2,
-      "prettier/prettier": [
-        "error",
-        {
-          "trailingComma": "es5",
-          "singleQuote": true,
-          "printWidth": 120,
-          "tabWidth": 8
-        }
-      ]
-    }
-  },
-  "scripts": {
-    "lint": "eslin .",
-    "lint:fix": "eslint . --fix"
-  },
   "name": "beginner-javascript",
   "version": "1.0.0",
-  "main": "some.js",
-  "devDependencies": {
-    "eslint": "^8.38.0",
-    "eslint-config-wesbos": "^3.2.3",
-    "prettier": "^2.8.7",
-    "typescript": "^4.9.5"
+  "description": "https://wesbos.com/javascript/",
+  "main": "async.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC",
-  "description": ""
+  "license": "ISC"
 }
